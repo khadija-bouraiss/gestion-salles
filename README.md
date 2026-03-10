@@ -5,22 +5,6 @@ TP Hibernate/JPA avec base de données H2 en mémoire.
 ## Technologies
 - Java 11 | Hibernate 5.6.5 | JPA 2.2 | H2 | Maven
 
-## Structure
-```
-src/main/java/com/example/
-├── model/        → Salle.java, Utilisateur.java
-├── service/      → CrudService, AbstractCrudService, SalleServiceImpl, UtilisateurServiceImpl
-└── App.java      → Tests CRUD
-```
-
-## Lancer le projet
-Dans IntelliJ : clic droit sur `App.java` → **Run 'App.main()'**
-
-## Résultat
-```
-Process finished with exit code 0
-```
-✅ Toutes les opérations CRUD (Create, Read, Update, Delete) exécutées avec succès sur les entités **Salle** et **Utilisateur**.
 
 ## Captures d'écran 
 
